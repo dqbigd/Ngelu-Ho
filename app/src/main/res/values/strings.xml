@@ -26,4 +26,6 @@
     <string name="total">Total :</string>
     <string name="profit">Profit :</string>
     <string name="find">Find</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
 </resources>

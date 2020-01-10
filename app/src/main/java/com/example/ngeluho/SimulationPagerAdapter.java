@@ -24,10 +24,10 @@ public class SimulationPagerAdapter extends FragmentPagerAdapter {
         Fragment fragment = null;
         switch (position) {
             case 0:
-                fragment = new FutureCalcFragment();
+                fragment = new PresentCalcFragment();
                 break;
             case 1:
-                fragment = new PresentCalcFragment();
+                fragment = new FutureCalcFragment();
                 break;
         }
         return fragment;
@@ -38,9 +38,9 @@ public class SimulationPagerAdapter extends FragmentPagerAdapter {
     public CharSequence getPageTitle(int position) {
         switch (position) {
             case 0:
-                return "Investment";
-            case 1:
                 return "Capital Investment";
+            case 1:
+                return "Investment";
         }
         return null;
     }

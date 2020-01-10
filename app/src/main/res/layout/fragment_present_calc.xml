@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your Target :"
+            android:text="Your Target"
             android:layout_marginTop="16dp"
             android:textStyle="bold"
             android:textSize="18sp">
@@ -34,6 +34,7 @@
                 android:inputType="number"
                 android:layout_weight="0.8"/>
             <Button
+                android:id="@+id/btnFindTarget"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/find"
