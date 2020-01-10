@@ -14,10 +14,32 @@
     <string name="result">Result :</string>
     <string name="change_language_settings">change language settings</string>
 
-    <string-array name="data_description_kalkulator">
-        <item>Future value (FV) is the value of a current asset at a future date based on an assumed rate of growth. The future value (FV) is important to investors and financial planners as they use it to estimate how much an investment made today will be worth in the future. Knowing the future value enables investors to make sound investment decisions based on their anticipated needs. However, external economic factors, such as inflation, can adversely affect the future value of the asset by eroding its value.</item>
-        <item>Present value (PV) is the current value of a future sum of money or stream of cash flows given a specified rate of return. Future cash flows are discounted at the discount rate, and the higher the discount rate, the lower the present value of the future cash flows. Determining the appropriate discount rate is the key to properly valuing future cash flows, whether they be earnings or obligations.</item>
+    <string-array name="data_title_find">
+        <item>Tanah Wiyung, Surabaya luas 435 meter persegi</item>
+        <item>Mobil Mercedes Benz S-Class</item>
+        <item>Rumah Perum Rungkut Asri 2 Lantai Merr</item>
+        <item>Laptop HP Pavilion x360 14-dh0038tx</item>
+        <item>Jam Rolex </item>
+        <item>PC gaming</item>
     </string-array>
+
+    <string-array name="data_price_find">
+        <item>3350000000</item>
+        <item>2770000000</item>
+        <item>1100000000</item>
+        <item>10799000</item>
+        <item>4000000000</item>
+        <item>50000000</item>
+    </string-array>
+
+    <array name="data_photo_find">
+        <item>@drawable/tanah</item>
+        <item>@drawable/merci</item>
+        <item>@drawable/rumah</item>
+        <item>@drawable/laptop</item>
+        <item>@drawable/rolex</item>
+        <item>@drawable/pcgaming</item>
+    </array>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
