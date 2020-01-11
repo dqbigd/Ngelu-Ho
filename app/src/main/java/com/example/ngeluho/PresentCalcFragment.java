@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,7 @@ public class PresentCalcFragment extends Fragment {
     private CurrencyEditText txtFutureValue;
     private SeekBar sbYear, sbRate;
     private int hasilYear, hasilRate;
+    private boolean isPencet = false;
 
 
     public PresentCalcFragment() {
@@ -55,10 +57,23 @@ public class PresentCalcFragment extends Fragment {
         btnFindTarget.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                //isPencet = true;
+
+                //Toast.makeText(getActivity(), String.valueOf(isPencet), Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getActivity(), FindTargetActivity.class);
                 startActivity(intent);
             }
         });
+
+        Toast.makeText(getActivity(), String.valueOf(getArguments()), Toast.LENGTH_SHORT).show();
+
+        if (getArguments() != null){
+            String harga = getArguments().getString("harga");
+            txtFutureValue.setText(harga);
+            if(!harga.equals("")){
+                txtFutureValue.setText(harga);
+            }
+        }
 
         sbYear.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
