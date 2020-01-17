@@ -55,25 +55,25 @@ public class FindAdapter extends RecyclerView.Adapter<FindAdapter.FindHolder> {
 
         holder.tvDesc.setText(harga);
 
-        holder.itemView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                String hrg = findModel.getDescrib();
-
-                PresentCalcFragment presentFragment = new PresentCalcFragment();
-                Bundle data = new Bundle();
-                data.putString("harga", hrg);
-                presentFragment.setArguments(data);
-
-                //((Activity)context).finish();
-                fragmentManager
-                        .beginTransaction()
-                        .replace(R.id.fragment_container, presentFragment, PresentCalcFragment.class.getSimpleName())
-                        .addToBackStack(null)
-                        .commit();
-
-            }
-        });
+//        holder.itemView.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+////                String hrg = findModel.getDescrib();
+//
+////                PresentCalcFragment presentFragment = new PresentCalcFragment();
+////                Bundle data = new Bundle();
+////                data.putString("harga", hrg);
+////                presentFragment.setArguments(data);
+//
+//                ((Activity)context).finish();
+////                fragmentManager
+////                        .beginTransaction()
+////                        .replace(R.id.fragment_container, presentFragment, PresentCalcFragment.class.getSimpleName())
+////                        .addToBackStack(null)
+////                        .commit();
+//
+//            }
+//        });
 
 
     }

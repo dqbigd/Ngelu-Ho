@@ -31,7 +31,7 @@ public class PresentCalcFragment extends Fragment {
     private SeekBar sbYear, sbRate;
     private int hasilYear, hasilRate;
     private boolean isPencet = false;
-
+    public static final String EXTRA_HARGA = "harga";
 
     public PresentCalcFragment() {
         // Required empty public constructor
@@ -52,6 +52,9 @@ public class PresentCalcFragment extends Fragment {
         btnHasil = view.findViewById(R.id.btnHitung);
         btnFindTarget = view.findViewById(R.id.btnFindTarget);
 
+        Bundle data = new Bundle();
+        data.putString("harga", "");
+
         settingFormatDuit();
 
         btnFindTarget.setOnClickListener(new View.OnClickListener() {
@@ -65,15 +68,26 @@ public class PresentCalcFragment extends Fragment {
             }
         });
 
-        Toast.makeText(getActivity(), String.valueOf(getArguments()), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(getActivity(), String.valueOf(getArguments().getString("harga")), Toast.LENGTH_SHORT).show();
 
-        if (getArguments() != null){
-            String harga = getArguments().getString("harga");
-            txtFutureValue.setText(harga);
-            if(!harga.equals("")){
-                txtFutureValue.setText(harga);
-            }
-        }
+        //Bundle bundle = this.getArguments();
+//        String harga = this.getArguments().getString("harga");
+//        Toast.makeText(getActivity(), harga, Toast.LENGTH_SHORT).show();
+
+//        if (getArguments() != null){
+//            //Bundle bundle = this.getArguments();
+//            String harga = getArguments().getString("harga");
+//            int harg = Integer.valueOf(harga);
+//
+//            Toast.makeText(getActivity(), String.valueOf(harg), Toast.LENGTH_SHORT).show();
+//            if (harga == null){
+//                Toast.makeText(getActivity(), "null anjer", Toast.LENGTH_SHORT).show();
+//            }
+//            txtFutureValue.setText(harga);
+//            if(!harga.equals("")){
+//                txtFutureValue.setText(harg);
+//            }
+//        }
 
         sbYear.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
             @Override
