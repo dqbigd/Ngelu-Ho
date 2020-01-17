@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ngelu Ho</string>
+    <string name = "lorem_ipsum"> Lorem Ipsum hanyalah teks tiruan dari industri percetakan dan penyusunan huruf. Lorem Ipsum telah menjadi teks boneka standar industri sejak tahun 1500-an, ketika printer yang tidak dikenal mengambil jenis galley dan mengacaknya untuk membuat buku spesimen jenis. Ini telah bertahan tidak hanya lima abad, tetapi juga lompatan ke pengaturan huruf elektronik, tetap pada dasarnya tidak berubah. Itu dipopulerkan pada 1960-an dengan merilis lembar Letraset yang mengandung bagian Lorem Ipsum, dan yang lebih baru dengan perangkat lunak desktop publishing seperti Aldus PageMaker termasuk versi Lorem Ipsum. </string>
+        <string name = "currency"> Rp. </string>
+        <string name = "future_value"> Nilai Masa Depan </string>
+        <string name = "all_required"> Semua Bidang wajib diisi </string>
+        <string name = "year_required"> Jumlah Tahun Dibutuhkan </string>
+        <string name = "present_value_required"> Nilai Saat Ini diperlukan </string>
+        <string name = "interest_rate_required"> Tingkat Bunga diperlukan </string>
+        <string name = "present_value"> Present Present </string>
+        <string name = "number_of_year"> Jumlah Tahun </string>
+        <string name = "interest_rate"> Suku Bunga </string>
+        <string name = "count"> Count </string>
+        <string name = "result"> Hasil: </string>
+        <string name = "change_language_settings"> ubah pengaturan bahasa </string>
+
+        <string-array name = "data_title_find">
+            <item> Tanah Wiyung, Surabaya luas 435 meter persegi </item>
+            <item> Mobil Mercedes Benz S-Class </item>
+            <item> Rumah Perum Rungkut Asri 2 Lantai Merr </item>
+            <item> Laptop HP Pavilion x360 14-dh0038tx </item>
+            <item> Jam Rolex </item>
+            <item> Permainan PC </item>
+        </string-array>
+
+        <string-array name = "data_price_find">
+            <item> 3350000000 </item>
+            <item> 2770000000 </item>
+            <item> 1100000000 </item>
+            <item> 10799000 </item>
+            <item> 4000000000 </item>
+            <item> 50000000 </item>
+        </string-array>
+
+        <array name="data_photo_find">
+            <item>@drawable/tanah</item>
+            <item>@drawable/merci</item>
+            <item>@drawable/rumah</item>
+            <item>@drawable/laptop</item>
+            <item>@drawable/rolex</item>
+            <item>@drawable/pcgaming</item>
+        </array>
+
+        <string name = "hello_blank_fragment"> Halo blank fragment </string>
+        <string name = "enter_amount"> Masukkan jumlah </string>
+        <string name = "simulation"> Simulasi </string>
+        <string name = "total"> Total: </string>
+        <string name = "profit"> Untung: </string>
+        <string name = "find"> Temukan </string>
+        <string name = "title"> Judul </string>
+        <string name = "description"> Deskripsi </string>
+        <string name = "how_we_find_your_profit"> Bagaimana kami menemukan keuntungan Anda? </string>
+        <string name = "future_desc"> Nilai masa depan (FV) adalah nilai aset saat ini di masa mendatang berdasarkan asumsi tingkat pertumbuhan. Nilai masa depan (FV) penting bagi investor dan perencana keuangan karena mereka menggunakannya untuk memperkirakan berapa banyak investasi yang dilakukan hari ini akan bernilai di masa depan. Mengetahui nilai masa depan memungkinkan investor untuk membuat keputusan investasi yang baik berdasarkan pada kebutuhan mereka yang diantisipasi. Namun, faktor ekonomi eksternal, seperti inflasi, dapat mempengaruhi nilai aset di masa mendatang dengan mengikis nilainya. </string>
+        <string name = "what_formula_we_use"> Formula apa yang kami gunakan? </string>
+        <string name = "future_formula"> FV = PV * (1 + i)^n </string>
+        <string name = "future_formula_explain"> FV = Nilai Masa Depan \nPV = Nilai Sekarang \ni = Tingkat Bunga \nn = n Tahun </string>
+        <string name = "how_we_find_your_capital_investment"> Bagaimana kami menemukan investasi modal Anda? </string>
+        <string name = "present_desc"> Nilai sekarang (PV) adalah nilai saat ini dari jumlah uang di masa depan atau aliran arus kas yang diberikan tingkat pengembalian yang ditentukan. Arus kas masa depan didiskontokan pada tingkat diskonto, dan semakin tinggi tingkat diskonto, semakin rendah nilai sekarang dari arus kas masa depan. Menentukan tingkat diskonto yang sesuai adalah kunci untuk menilai dengan tepat arus kas masa depan, baik berupa pendapatan atau kewajiban. </string>
+        <string name = "present_formula"> PV = FV * (1 / (1 + i)^n </string>
+        <string name = "present_formula_explain"> PV = Nilai Sekarang \nFV = Nilai Masa Depan \ni = Suku Bunga \nn = n Tahun </string>
+</resources>

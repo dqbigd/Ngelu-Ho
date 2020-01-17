@@ -10,14 +10,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="How we find your profit ?"
+        android:text="@string/how_we_find_your_profit"
         android:textStyle="bold"
-        android:layout_marginBottom="16dp"/>
+        android:layout_marginBottom="16dp"
+        android:textSize="16sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Future value (FV) is the value of a current asset at a future date based on an assumed rate of growth. The future value (FV) is important to investors and financial planners as they use it to estimate how much an investment made today will be worth in the future. Knowing the future value enables investors to make sound investment decisions based on their anticipated needs. However, external economic factors, such as inflation, can adversely affect the future value of the asset by eroding its value." />
+        android:text="@string/future_desc"
+        android:textSize="16sp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -25,19 +27,21 @@
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:textStyle="bold"
-        android:text="What formula we use ?"/>
+        android:text="@string/what_formula_we_use"
+        android:textSize="16sp"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="FV = PV * (1 + i)^n"
-        android:textSize="16sp"
+        android:text="@string/future_formula"
+        android:textSize="20sp"
         android:textAlignment="center"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="FV = Future Value \nPV = Present Value\ni = Interest Rate\nn = n Year"/>
+        android:textSize="16sp"
+        android:text="@string/future_formula_explain"/>
 
 </LinearLayout>

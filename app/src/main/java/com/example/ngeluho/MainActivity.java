@@ -9,6 +9,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import android.app.ActionBar;
 import android.content.Intent;
 import android.os.Bundle;
+import android.provider.Settings;
+import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Window;
@@ -38,6 +40,21 @@ public class MainActivity extends AppCompatActivity {
 //        decorView.setSystemUiVisibility(uiOptions);
     }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        if (item.getItemId() == R.id.item_change_language){
+            Intent settingIntent = new Intent(Settings.ACTION_LOCALE_SETTINGS);
+            startActivity(settingIntent);
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
     private boolean loadFragment(Fragment selectedFragment){
         if (selectedFragment != null){
             getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container, selectedFragment)
@@ -62,12 +79,6 @@ public class MainActivity extends AppCompatActivity {
                 case R.id.navigation_desc:
                     selectedFragment = new DescFragment();
                     break;
-//                case R.id.navigation_inbox:
-//                    selectedFragment = new InboxFragment();
-//                    break;
-//                case R.id.navigation_profile:
-//                    selectedFragment = new ProfileFragment();
-//                    break;
             }
 
             return loadFragment(selectedFragment);

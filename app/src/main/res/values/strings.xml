@@ -50,4 +50,13 @@
     <string name="find">Find</string>
     <string name="title">Title</string>
     <string name="description">Description</string>
+    <string name="how_we_find_your_profit">How we find your profit ?</string>
+    <string name="future_desc">Future value (FV) is the value of a current asset at a future date based on an assumed rate of growth. The future value (FV) is important to investors and financial planners as they use it to estimate how much an investment made today will be worth in the future. Knowing the future value enables investors to make sound investment decisions based on their anticipated needs. However, external economic factors, such as inflation, can adversely affect the future value of the asset by eroding its value.</string>
+    <string name="what_formula_we_use">What formula we use ?</string>
+    <string name="future_formula">FV = PV * (1 + i)^n</string>
+    <string name="future_formula_explain">FV = Future Value  \nPV = Present Value \ni = Interest Rate \nn = n Year</string>
+    <string name="how_we_find_your_capital_investment">How we find your capital investment ?</string>
+    <string name="present_desc">Present value (PV) is the current value of a future sum of money or stream of cash flows given a specified rate of return. Future cash flows are discounted at the discount rate, and the higher the discount rate, the lower the present value of the future cash flows. Determining the appropriate discount rate is the key to properly valuing future cash flows, whether they be earnings or obligations.</string>
+    <string name="present_formula">PV = FV * (1/ (1 + i)^n</string>
+    <string name="present_formula_explain">PV = Present Value \nFV = Future Value  \ni = Interest Rate \nn = n Year</string>
 </resources>
