@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".PresentCalcFragment">
+    tools:context=".fragment.PresentCalcFragment">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,7 +15,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your Target"
+            android:text="@string/your_target"
             android:layout_marginTop="16dp"
             android:textStyle="bold"
             android:textSize="18sp">
@@ -64,7 +64,7 @@
                 android:id="@+id/tvPercenYear"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0 year"
+                android:text="@string/_0_year"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:layout_weight="1"
@@ -134,7 +134,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="You can start investing from"
+            android:text="@string/you_can_start_investing_from"
             android:textSize="20sp"
             android:gravity="center"
             android:textColor="@android:color/white"/>

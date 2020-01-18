@@ -1,4 +1,4 @@
-package com.example.ngeluho;
+package com.example.ngeluho.fragment;
 
 
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.ngeluho.R;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;

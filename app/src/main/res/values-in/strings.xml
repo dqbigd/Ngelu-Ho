@@ -2,16 +2,16 @@
 <resources>
     <string name="app_name">Ngelu Ho</string>
     <string name = "lorem_ipsum"> Lorem Ipsum hanyalah teks tiruan dari industri percetakan dan penyusunan huruf. Lorem Ipsum telah menjadi teks boneka standar industri sejak tahun 1500-an, ketika printer yang tidak dikenal mengambil jenis galley dan mengacaknya untuk membuat buku spesimen jenis. Ini telah bertahan tidak hanya lima abad, tetapi juga lompatan ke pengaturan huruf elektronik, tetap pada dasarnya tidak berubah. Itu dipopulerkan pada 1960-an dengan merilis lembar Letraset yang mengandung bagian Lorem Ipsum, dan yang lebih baru dengan perangkat lunak desktop publishing seperti Aldus PageMaker termasuk versi Lorem Ipsum. </string>
-        <string name = "currency"> Rp. </string>
-        <string name = "future_value"> Nilai Masa Depan </string>
-        <string name = "all_required"> Semua Bidang wajib diisi </string>
-        <string name = "year_required"> Jumlah Tahun Dibutuhkan </string>
-        <string name = "present_value_required"> Nilai Saat Ini diperlukan </string>
-        <string name = "interest_rate_required"> Tingkat Bunga diperlukan </string>
+    <string name = "currency"> Rp. </string>
+    <string name = "future_value"> Nilai Masa Depan </string>
+    <string name = "all_required"> Semua Bidang wajib diisi </string>
+    <string name = "year_required"> Jumlah Tahun Dibutuhkan </string>
+    <string name = "present_value_required"> Nilai Saat Ini diperlukan </string>
+    <string name = "interest_rate_required"> Tingkat Bunga diperlukan </string>
         <string name = "present_value"> Present Present </string>
         <string name = "number_of_year"> Jumlah Tahun </string>
         <string name = "interest_rate"> Suku Bunga </string>
-        <string name = "count"> Count </string>
+        <string name = "count"> Hitung </string>
         <string name = "result"> Hasil: </string>
         <string name = "change_language_settings"> ubah pengaturan bahasa </string>
 
@@ -45,8 +45,8 @@
         <string name = "hello_blank_fragment"> Halo blank fragment </string>
         <string name = "enter_amount"> Masukkan jumlah </string>
         <string name = "simulation"> Simulasi </string>
-        <string name = "total"> Total: </string>
-        <string name = "profit"> Untung: </string>
+        <string name = "total"> Total : </string>
+        <string name = "profit"> Untung : </string>
         <string name = "find"> Temukan </string>
         <string name = "title"> Judul </string>
         <string name = "description"> Deskripsi </string>
@@ -59,4 +59,9 @@
         <string name = "present_desc"> Nilai sekarang (PV) adalah nilai saat ini dari jumlah uang di masa depan atau aliran arus kas yang diberikan tingkat pengembalian yang ditentukan. Arus kas masa depan didiskontokan pada tingkat diskonto, dan semakin tinggi tingkat diskonto, semakin rendah nilai sekarang dari arus kas masa depan. Menentukan tingkat diskonto yang sesuai adalah kunci untuk menilai dengan tepat arus kas masa depan, baik berupa pendapatan atau kewajiban. </string>
         <string name = "present_formula"> PV = FV * (1 / (1 + i)^n </string>
         <string name = "present_formula_explain"> PV = Nilai Sekarang \nFV = Nilai Masa Depan \ni = Suku Bunga \nn = n Tahun </string>
+        <string name="capital_investment">Penanaman Modal</string>
+        <string name="investment">Investasi</string>
+        <string name="your_target">Target Anda</string>
+    <string name="you_can_start_investing_from">Anda bisa memulai investasi anda dari</string>
+    <string name="_0_year">0 tahun</string>
 </resources>

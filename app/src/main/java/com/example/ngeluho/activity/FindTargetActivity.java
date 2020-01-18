@@ -1,4 +1,4 @@
-package com.example.ngeluho;
+package com.example.ngeluho.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -8,6 +8,10 @@ import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+
+import com.example.ngeluho.adapter.FindAdapter;
+import com.example.ngeluho.FindModel;
+import com.example.ngeluho.R;
 
 import java.util.ArrayList;
 

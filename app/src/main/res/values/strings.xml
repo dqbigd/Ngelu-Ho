@@ -59,4 +59,9 @@
     <string name="present_desc">Present value (PV) is the current value of a future sum of money or stream of cash flows given a specified rate of return. Future cash flows are discounted at the discount rate, and the higher the discount rate, the lower the present value of the future cash flows. Determining the appropriate discount rate is the key to properly valuing future cash flows, whether they be earnings or obligations.</string>
     <string name="present_formula">PV = FV * (1/ (1 + i)^n</string>
     <string name="present_formula_explain">PV = Present Value \nFV = Future Value  \ni = Interest Rate \nn = n Year</string>
+    <string name="capital_investment">Capital Investment</string>
+    <string name="investment">Investment</string>
+    <string name="your_target">Your Target</string>
+    <string name="you_can_start_investing_from">You can start investing from</string>
+    <string name="_0_year">0 year</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.ngeluho;
+package com.example.ngeluho.fragment;
 
 
 import android.os.Bundle;
@@ -13,10 +13,10 @@ import android.view.ViewGroup;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class FutureDescFragment extends Fragment {
+public class PresentDescFragment extends Fragment {
 
 
-    public FutureDescFragment() {
+    public PresentDescFragment() {
         // Required empty public constructor
     }
 
@@ -25,7 +25,7 @@ public class FutureDescFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_future_desc, container, false);
+        return inflater.inflate(R.layout.fragment_present_desc, container, false);
     }
 
 }
